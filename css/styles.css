@@ -344,9 +344,14 @@ template {
 /*              Base styles                      */
 /* ============================================= */
 * {
-  font-family: "Lato", sans-serif;
+  font-family: "Nunito", "Roboto", sans-serif;
   color: black;
   box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
 }
 
 /* ============================================= */
