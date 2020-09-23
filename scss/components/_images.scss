@@ -1,3 +1,11 @@
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+
+.thumb {
+    transition: transform .5s cubic-bezier(.7,-0.39,.31,1.38);
+    box-shadow: 5px 0 10px 0 rgb(155, 155, 155);
+    &:hover {
+        transform: rotate(2deg) scale(1.1);
+    }
+}

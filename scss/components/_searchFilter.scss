@@ -2,3 +2,21 @@
 /*              Search Function Styles           */
 /* ============================================= */
 
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+input[type="search"] {
+    width: 40%;
+    max-width: 420px;
+    height: 40px;
+    border-radius: 6px;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    &:focus {
+        outline: none;
+    }
+}
